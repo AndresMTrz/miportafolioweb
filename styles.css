@@ -1,0 +1,94 @@
+body, ul, li, p, header, div{
+    margin:0 0;
+    font-size: 1.1rem;
+}
+div#grancontenedor{
+    background-color: rgb(255, 255, 255);
+    margin: 0 10vw;
+    padding: 3vh 0;
+}
+body{
+    background-color: rgb(216, 216, 216);
+}
+div.contenedor{
+    display:flex;
+    justify-content: center;
+}
+div.contenedor p{
+    display:inline-block;
+}
+
+div.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+div.imagen img#fotoc{
+    width: 20rem;
+}
+
+header{
+    height: 100px;
+    width:100%;
+    background-color: rgb(180, 78, 180);
+    margin: 0 0;
+}
+nav{
+    background-color: rgb(173, 173, 173);
+}
+ul.navi{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    padding: 0 1rem;
+    align-items: center;
+
+}
+ul.navi li{
+    font-size: 1.4rem;
+}
+ul.navi a{
+    text-decoration: none;
+    color: purple;
+}
+h1{
+    text-align: center;
+    margin: 0 0;
+}
+p.intro{
+    text-align: center;
+}
+h2{
+    padding:0 15vw;
+    background-color: rgb(219, 148, 219);
+    margin: .83rem 5vw;
+}
+p#titlecontact{
+    text-align: center;
+    margin: 1rem 0;
+}
+ul#contacto{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 0 1rem;
+    align-items: center;
+}
+
+ul#contacto a{
+    text-decoration: none;
+    color: violet;
+}
+
+form#contactme{
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-color:rgb(216, 216, 216);
+}
+.campo, textarea{
+    background-color:rgb(214, 182, 214);
+}
